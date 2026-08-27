@@ -1,0 +1,46 @@
+.hero-cinematic {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* position fixed so it stays while fading out */
+  top: 0;
+  left: 0;
+}
+
+.intro-text-container {
+  text-align: center;
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.intro-text {
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+.scroll-hint {
+  position: absolute;
+  bottom: 10%;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  color: rgba(255,255,255,0.5);
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.2; transform: translateY(0); }
+  50% { opacity: 0.8; transform: translateY(10px); }
+}
+
+@media (max-width: 768px) {
+  .intro-text {
+    font-size: 2rem;
+  }
+}
