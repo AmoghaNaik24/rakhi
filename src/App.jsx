@@ -47,7 +47,7 @@ function App() {
       <audio 
         ref={audioRef} 
         loop 
-        src="/public/WhatsApp Audio 2026-08-28 at 9.11.46 AM.mpeg.mp3
+        src="/WhatsApp Audio 2026-08-28 at 9.11.46 AM.mpeg.mp3
 " 
       />
       
