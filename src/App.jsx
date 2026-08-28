@@ -47,8 +47,7 @@ function App() {
       <audio 
         ref={audioRef} 
         loop 
-        src="/WhatsApp Audio 2026-08-28 at 9.11.46 AM.mpeg.mp3
-" 
+        src=src={`${import.meta.env.BASE_URL}WhatsApp Audio 2026-08-28 at 9.11.46 AM.mpeg.mp3`}
       />
       
       <button className="music-toggle" onClick={toggleMusic}>
