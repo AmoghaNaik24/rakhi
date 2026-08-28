@@ -126,10 +126,15 @@ const SurpriseLock = () => {
                     </button>
                     <div className="letter-content">
                       <p className="handwritten letter-text" style={{ fontSize: '2rem', lineHeight: '1.6' }}>
+                        anna....<br/>
+                        adagakundane na annavi ayyav....<br/>
+                        na serlaak nuvve tinnav<br/>
+                        edvakunna edpichav...<br/>
                         veskodaniki ni paatha battalichav...<br/>
                         pusukodaniki ni scent ni ichav..<br/>
+                        anna....<br/>
                         todugukodaniki ni socks ni ichav..<br/>
-                        kani phonepay cheyyadam marchipoyav ... :) 
+                        kani enduku anna phonepay cheyyadam marchipoyav ... :)
                       </p>
                     </div>
                   </motion.div>
@@ -145,6 +150,8 @@ const SurpriseLock = () => {
             >
               <p className="handwritten emotional-text">
                 on a serious note...<br/><br/>
+
+                "some bonds grow with time. Ours grew before I was old enough to understand what it would someday mean to me ...<br></br><br/>
                 Happy Rakshabandhan Annaaaa....<br></br> Thank you for always protecting me, guiding me, and being my biggest supporter. <br/><br/>
                 I love you so much, Anna❤️
               </p>
